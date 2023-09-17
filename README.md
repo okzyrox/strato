@@ -18,12 +18,6 @@
     <b>Strato</b> is an experimental emulator that runs on <b>ARMv8 Android™</b> devices and emulates the functionality of a <b>Nintendo Switch™</b> system, licensed under <a href="https://github.com/strato-emu/strato/blob/master/LICENSE.md"><b>GNU General Public License v3.0 or later</b></a>
 </p>
 
----
-
-### Contact
-You can contact the core developers of Strato at our **[Discord](https://discord.gg/YhpdhVBmXX)**. If you have any questions, feel free to ask. It's also a good place to just keep up with the emulator, as most talk regarding development goes on over there.
-
----
 
 ### Special Thanks
 A few noteworthy teams/projects who've helped us along the way are:
