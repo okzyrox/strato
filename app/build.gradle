@@ -25,7 +25,7 @@ android {
         targetSdk 33
 
         versionCode 3
-        versionName getGitVersionName()
+        versionName "0.0.3"
 
         ndk {
             //noinspection ChromeOsAbiSupport
@@ -191,6 +191,8 @@ kapt {
  * If HEAD is not a tag, the tag name, the branch name and the short commit hash are used
  * e.g. `1.0.0-master-ab00cd11`
  */
+
+/** 
 def getGitVersionName() {
     def versionName = '0.0.0'
 
@@ -213,7 +215,7 @@ def getGitVersionName() {
 
     logger.quiet('Version name: ' + versionName)
     return versionName
-}
+}*/
 
 /**
  * Returns the number of commits until the last tag
