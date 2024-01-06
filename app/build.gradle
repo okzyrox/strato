@@ -24,7 +24,7 @@ android {
         minSdk 29
         targetSdk 33
 
-        versionCode getGitVersionCode()
+        versionCode 3
         versionName getGitVersionName()
 
         ndk {
@@ -218,6 +218,8 @@ def getGitVersionName() {
 /**
  * Returns the number of commits until the last tag
  */
+
+/** 
 def getGitVersionCode() {
     def versionCode = 1
 
@@ -230,11 +232,12 @@ def getGitVersionCode() {
 
     logger.quiet('Version code: ' + versionCode)
     return versionCode
-}
+}*/
 
 /**
  * Returns the short commit hash
  */
+
 def getGitShortHash() {
     def gitHash = '0'
 
